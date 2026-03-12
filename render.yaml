@@ -1,11 +1,10 @@
 services:
   - type: web
-    name: duplens-api
+    name: duplens-ai-backend
     env: python
+    rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: ALLOWED_ORIGINS
-        sync: false
-      - key: PYTHON_VERSION
-        value: 3.11.0
+        value: https://dup-lens-ai.vercel.app,https://*.vercel.app,http://localhost:3000

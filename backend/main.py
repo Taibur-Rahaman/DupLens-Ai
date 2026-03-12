@@ -29,7 +29,7 @@ from image_utils import (
 )
 from duplicate_detector import detector, DuplicateStatus
 
-ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,https://dup-lens-ai.vercel.app,https://*.vercel.app")
 origins = [origin.strip() for origin in ALLOWED_ORIGINS.split(",")]
 
 app = FastAPI(

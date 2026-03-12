@@ -278,6 +278,17 @@ export default function Home() {
 
       <footer className="mt-12 py-6 text-center text-sm text-gray-500 border-t border-gray-200">
         <p>DupLens AI - Intelligent Duplicate Image Detection</p>
+        <p className="mt-2">
+          Developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/taiburrahaman/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 hover:underline"
+          >
+            Taibur
+          </a>
+        </p>
       </footer>
     </div>
   );
