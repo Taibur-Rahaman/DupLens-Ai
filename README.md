@@ -184,4 +184,8 @@ docker run -p 8000:8000 -e ALLOWED_ORIGINS=https://your-app.vercel.app duplens-a
 
 ## License
 
-MIT License
+MIT
+
+## Author
+
+**Md Taibur Rahaman** — [GitHub](https://github.com/Taibur-Rahaman) License
